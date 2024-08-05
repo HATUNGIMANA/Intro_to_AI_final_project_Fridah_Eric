@@ -34,7 +34,14 @@ Below is the step-to-step guide on how we implemented it and how anyone can have
 - Process the uploaded or captured image if applicable
 
 
+To host this application on a local server you need to follow the following steps:
+1. Install necessary dependancies
+2. Create a streamlit app
+3. Run the streamlit app using: streamlit run app.py
+4. Implement Object and classification
+5. Customize and enhance
 
+Find here the video demo of his this application works: 
 
   
 
