@@ -10,24 +10,28 @@ Technical tools used include:
 Below is the step-to-step guide on how we implemented it and how anyone can have access to it and use it:
 
 1. Imported necessary libraries such as:
-          - cv2 - library used to process images
-          - pyttsx3 - TTS library used to convert text to speech
-          - threading - library used to increase speed by running tasks in separate threads.
-          - flask - allows us to set up web interface
-          - numpy - used to manage numerical arrays
-          - tensorflow - used for object detection and text-to-speech
+- numpy - used to manage numerical arrays and matrices
+- pandas - used to manipulate data
+- PIL - used to work with the images
+- TensorFlow - used to build and train neural networks
+- ResNet50 - used to classify images
+- Streamlit - used to create the web interface
+- gtts - used to convert the text to speech audio files
+- opencv - used to process the image and video analysis
+  
 2. Loaded the Pre-trained models:
-       - ResNet50 model for image classification
-       - YOLOv7 for object detection
+- ResNet50 model for image classification
+- YOLOv7 for object detection
 
 3. Created helper functions:
-       - Image processing function
-       - Object detection function
-       - Caption generation function
-       - Text-to-Speech function
+- Image processing function
+- Object detection function
+- Caption generation function
+- Text-to-Speech function
+  
 4. Implementation of the streamlit web interface
-       - Set up web interface using streamlit
-       - Process the uploaded or captured image if applicable
+- Set up web interface using streamlit
+- Process the uploaded or captured image if applicable
 
 
 
