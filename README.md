@@ -41,7 +41,7 @@ To host this application on a local server you need to follow the following step
 4. Implement Object and classification
 5. Customize and enhance
 
-Find here the video demo of his this application works: 
+Find here the video demo of his this application works: https://youtu.be/Cf0HpPAhsbE
 
   
 
